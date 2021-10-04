@@ -30,7 +30,9 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
 
   return (
     <StaticWalletProvider defaultNetwork={mainnet}>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </StaticWalletProvider>
   );
 };
