@@ -3,16 +3,10 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      zIndex: {
-        '1000': 1000,
-      }
-    },
+    extend: {},
   },
   variants: {
-    extend: {
-      padding: ['last'],
-    },
+    extend: {},
   },
   plugins: [],
 }
